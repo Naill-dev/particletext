@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+    overflow: hidden;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+canvas {
+    display: block;
+}
+
+.ui-container {
+    position: absolute;
+    bottom: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    background: rgba(255, 255, 255, 0.05);
+    padding: 10px 20px;
+    border-radius: 50px;
+    border: 1px solid rgba(255, 0, 0, 0.3); /* Qırmızı haşiyə */
+    backdrop-filter: blur(10px);
+}
+
+input {
+    background: transparent;
+    border: none;
+    color: #ff0000; /* Qırmızı yazı */
+    font-size: 18px;
+    outline: none;
+    width: 200px;
+}
+
+button {
+    background: #ff0000; /* Qırmızı düymə */
+    border: none;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 25px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-left: 10px;
+    transition: 0.3s;
+}
+
+button:hover {
+    box-shadow: 0 0 15px #ff0000;
+    background: #cc0000;
+}
